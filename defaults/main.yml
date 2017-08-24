@@ -1,0 +1,3 @@
+---
+    linux_localusers__users:
+        - {user: 'localadmin', comment: 'Local Administrator', state: 'present', groups: 'wheel', password: '$6$YPQXqTxJc6IEhaSl$of8UJUO6sXkAri2920MzGySrJ.uvHFYNd0ycLtwCmngQyIjg3EY9VG3uUyAfspPOV6eMBO5sVSrBYaDFz7Hxz0'}

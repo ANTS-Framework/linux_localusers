@@ -1,0 +1,9 @@
+---
+  - name: "Creat local users"
+    user:
+      user: '{{ item.user }}'
+      comment: '{{ item.comment }}'
+      state: '{{ item.state }}'
+      groups: '{{ item.groups }}'
+      password: '{{ item.password }}'
+    with_items: '{{ linux_localusers__users }}'
